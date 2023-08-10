@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .m{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+  .home .hero {
+    min-height: 80vh;
+    background: url(https://images.unsplash.com/photo-1516397281156-ca07cf9746fc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b25saW5lJTIwY291cnNlc3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.home .hero .text1 {
+    font-size: 5rem;
+    width: 45rem;
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    opacity: .8;
+}
+
+.home .hero .text2 {
+    font-size: 3rem;
+    width: 35rem;
+    background: var(--orange);
+    padding: 1rem;
+    text-align: center;
+    opacity: .8;
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.feature-section{
+  background-color: #E6E6E6;
+  padding: 7%;
+
+}
+
+.feature-block {
+    display: inline-block;
+    width: 40%;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: bold;
+    font-size: 1.35rem;
+}
+.feature-icons{
+  width: 100px;
+  height: 100px;
+}
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    display: flex;
+  }
+  img{
+    width:30%;
+  }
+
+
+
+  .container{
+    padding-top: 2%;
+    padding-bottom: 2%;
+
+}
+
+
+.btn{
+  font-family: 'Labrada', serif;
+
+}
+.btn:hover {
+  transform: rotate(360deg);
+  transform: scale(1.01);
+}
+
